@@ -1,0 +1,46 @@
+{
+    "aws": {
+        "REGION": "ap-south-1",
+        "BUCKET": "",
+        "ACCESS_KEY_ID": "",
+        "SECRET_ACCESS_KEY": "",
+        "BUCKET_FILE": "",
+        "BUCKET_DB_DUMB": ""
+    },
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8082
+    },
+    "jwt": {
+        "publicKey": "",
+        "issuer": "REPLACE_NAME Services",
+        "subject": "REPLACE_NAME Api",
+        "audience": "REPLACE_NAME",
+        "expiresIn": "30d"
+    },
+    "mongodb": {
+        "connectionString": "",
+        "username": "",
+        "password": "",
+        "db1": "cip_db"
+    },
+    "encrypt": {
+        "salt": "",
+        "algorithm": "sha1",
+        "digest": "hex",
+        "publicKey": "",
+        "privateKey": ""
+    },
+    "mail_server": {
+        "host": "",
+        "port": "465",
+        "username": "",
+        "password": "",
+        "from1": "",
+        "from2": ""
+    },
+    "asposewordscloud": {
+        "id": "",
+        "secret_key": ""
+    }
+}
